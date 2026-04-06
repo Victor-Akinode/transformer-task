@@ -1,0 +1,37 @@
+# Core
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+scikit-learn==1.5.1
+tqdm==4.66.4
+
+# PyTorch ecosystem (CUDA 12.1, compatible with TITAN V)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# Hugging Face
+transformers==4.40.2
+datasets==2.19.1
+accelerate==0.30.1
+huggingface-hub==0.30.0
+safetensors==0.4.1
+tokenizers==0.19.1
+regex==2023.6.3
+
+# Dataset deps
+pyarrow==12.0.1
+aiohttp==3.8.5
+dill==0.3.8
+multiprocess==0.70.16
+xxhash==3.3.2
+fsspec==2024.3.1
+pyarrow-hotfix==12.0.0
+
+# Matplotlib deps
+cycler==0.11.0
+kiwisolver==1.4.6
+pyparsing==3.1.2
+contourpy==1.1.0
+fonttools==4.41.0
+pytz==2023.3
